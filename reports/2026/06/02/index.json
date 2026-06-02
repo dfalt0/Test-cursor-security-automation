@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-02",
+  "repository": "dfalt0/Test-cursor-security-automation",
+  "branch": "cursor/security-intelligence-agent-e295",
+  "reports": [
+    {
+      "hour": "23",
+      "generated_at_utc": "2026-06-02T23:02:00Z",
+      "path": "reports/2026/06/02/23/security-intel-report.md",
+      "current_hour_cves": 10,
+      "current_hour_counts": {
+        "critical": 0,
+        "high": 5,
+        "medium": 4,
+        "low": 0,
+        "unknown": 1
+      },
+      "day_to_date_cves": 209,
+      "day_to_date_counts": {
+        "critical": 13,
+        "high": 75,
+        "medium": 94,
+        "low": 12,
+        "unknown": 15
+      },
+      "kev_additions_tracked": [
+        "CVE-2022-0492",
+        "CVE-2025-48595"
+      ],
+      "top_priorities": [
+        "CVE-2022-0492",
+        "CVE-2025-48595",
+        "CVE-2026-8936",
+        "CVE-2022-4992",
+        "CVE-2026-10650",
+        "CVE-2026-35212",
+        "CVE-2026-10661"
+      ],
+      "malware_highlights": [
+        "MalwareBazaar: 229 submissions past 24h, Mirai most seen",
+        "SANS ISC: SVG phishing wave with application/ecmascript script blocks"
+      ]
+    }
+  ]
+}

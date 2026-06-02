@@ -1,8 +1,8 @@
 # Security Intelligence Report - 2026-06-02 03:01 UTC
 
-Prepared for: hourly security report automation  
-Repository: dfalt0/Test-cursor-security-automation  
-Branch: cursor/security-intelligence-agent-6173  
+Prepared for: hourly security report automation
+Repository: dfalt0/Test-cursor-security-automation
+Branch: cursor/security-intelligence-agent-6173
 Analyst confidence model: High = primary source or multiple authoritative confirmations; Medium = credible secondary plus primary vulnerability data; Low = single-source or unvalidated public PoC signal.
 
 ## Executive Summary
@@ -478,4 +478,3 @@ GitHub search for repositories created on or after 2026-06-01 returned the follo
 8. Harden Linux multi-user and CI hosts against public LPE chains: apply kernel updates for PinTheft/Dirty Frag/CIFSwitch-class issues; disable unused RDS/CIFS/io_uring exposure after compatibility review.
 9. Monitor ransomware TTPs associated with The Gentlemen/Storm-2697: WMI, PsExec, scheduled task fan-out, backup service termination, shadow copy deletion, hidden SMB shares, and large outbound exfiltration.
 10. Treat new GitHub PoC repositories as hostile until reviewed; do not clone or run untrusted exploit repositories on analyst workstations.
-

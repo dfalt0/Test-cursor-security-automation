@@ -1,8 +1,8 @@
 # Security Intelligence Hourly Report - 2026-06-02 04:03 UTC
 
-Repository: `dfalt0/Test-cursor-security-automation`  
-Branch: `cursor/security-intelligence-agent-7fb3`  
-Automation trigger: hourly cron, 2026-06-02 04:02:48 UTC  
+Repository: `dfalt0/Test-cursor-security-automation`
+Branch: `cursor/security-intelligence-agent-7fb3`
+Automation trigger: hourly cron, 2026-06-02 04:02:48 UTC
 Analyst: Cursor security intelligence agent
 
 ## Executive Summary

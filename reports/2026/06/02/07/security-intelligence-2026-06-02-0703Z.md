@@ -1,7 +1,7 @@
 # Security Intelligence Report - 2026-06-02 07:03 UTC
 
-Automation run: hourly cron at 2026-06-02T07:02:22Z  
-Repository: dfalt0/Test-cursor-security-automation  
+Automation run: hourly cron at 2026-06-02T07:02:22Z
+Repository: dfalt0/Test-cursor-security-automation
 Collection window emphasized: 2026-06-02 06:00-07:30 UTC, with 24-hour context for exploitation and patch priority.
 
 ## Executive Summary

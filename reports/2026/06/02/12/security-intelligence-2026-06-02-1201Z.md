@@ -1,8 +1,8 @@
 # Security Intelligence Report - 2026-06-02 12:01 UTC
 
-Repository: dfalt0/Test-cursor-security-automation  
-Branch: cursor/security-intelligence-agent-39de  
-Report window: 2026-06-02 10:00-12:30 UTC, with 24-hour enrichment from 2026-06-01 12:30 UTC  
+Repository: dfalt0/Test-cursor-security-automation
+Branch: cursor/security-intelligence-agent-39de
+Report window: 2026-06-02 10:00-12:30 UTC, with 24-hour enrichment from 2026-06-01 12:30 UTC
 Confidence key: High = primary source plus corroboration; Medium = primary source only or strong secondary corroboration; Low = unvalidated public indicator.
 
 ## Executive Summary

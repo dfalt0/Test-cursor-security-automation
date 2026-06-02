@@ -1,7 +1,7 @@
 # Security Intelligence Report - 2026-06-02 02:02 UTC
 
-Repository: `dfalt0/Test-cursor-security-automation`  
-Branch: `cursor/security-intelligence-agent-a784`  
+Repository: `dfalt0/Test-cursor-security-automation`
+Branch: `cursor/security-intelligence-agent-a784`
 Report window: primary hourly delta `2026-06-02T00:00:00Z` to `2026-06-02T02:10:00Z`; 24-hour enrichment `2026-06-01T02:00:00Z` to `2026-06-02T02:10:00Z`
 
 ## Executive Summary

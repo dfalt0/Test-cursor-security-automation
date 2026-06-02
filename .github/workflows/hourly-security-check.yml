@@ -1,0 +1,26 @@
+name: Hourly Security News Check
+
+on:
+  schedule:
+    # Every hour at minute 0, UTC
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  hourly-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify hourly prompt exists
+        run: test -f prompts/hourly-security-check.md
+
+      - name: Log scheduled run
+        run: |
+          echo "Hourly Security News Check triggered at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Agent prompt: prompts/hourly-security-check.md"
+          echo "Expected output: reports/$(date -u +%Y/%m/%d/%H)/security-intel-report.md"
+          echo ""
+          echo "Configure a Cursor automation with this schedule to execute the agent."
+          echo "See automation/schedules.yaml and README.md for setup instructions."

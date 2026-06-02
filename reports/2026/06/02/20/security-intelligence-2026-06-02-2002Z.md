@@ -1,8 +1,8 @@
 # Security Intelligence Report - 2026-06-02 20:02 UTC
 
-Automation run: `03015b72-ed4b-4a70-ae12-7df8f53b90ea`  
-Repository: `dfalt0/Test-cursor-security-automation`  
-Branch: `cursor/security-intelligence-agent-c4e4`  
+Automation run: `03015b72-ed4b-4a70-ae12-7df8f53b90ea`
+Repository: `dfalt0/Test-cursor-security-automation`
+Branch: `cursor/security-intelligence-agent-c4e4`
 Analyst posture: CTI/vulnerability intelligence, enterprise prioritization
 
 ## Executive Summary

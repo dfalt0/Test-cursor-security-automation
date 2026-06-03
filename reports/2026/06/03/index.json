@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-03",
+  "reports": [
+    {
+      "hour": "01",
+      "generated_at": "2026-06-03T01:02:00Z",
+      "path": "reports/2026/06/03/01/security-intel-report.md",
+      "collection_window": {
+        "current_start": "2026-06-03T00:00:00Z",
+        "current_end": "2026-06-03T01:35:00Z",
+        "rolling_24h_start": "2026-06-02T01:02:00Z",
+        "rolling_24h_end": "2026-06-03T01:35:00Z"
+      },
+      "nvd_current_hour": {
+        "total": 5,
+        "critical": 0,
+        "high": 0,
+        "medium": 5,
+        "low": 0,
+        "unknown": 0
+      },
+      "nvd_rolling_24h": {
+        "total": 224,
+        "critical": 12,
+        "high": 64,
+        "medium": 84,
+        "low": 6,
+        "unknown": 58
+      },
+      "critical_findings": [
+        "CVE-2026-20182",
+        "CVE-2026-41940",
+        "CVE-2026-35616",
+        "CVE-2025-48595",
+        "CVE-2022-0492",
+        "CVE-2026-7312",
+        "CVE-2026-7198",
+        "CVE-2026-8206",
+        "CVE-2026-47117",
+        "CVE-2026-0611",
+        "CVE-2026-49448",
+        "CVE-2026-32625"
+      ],
+      "active_exploitation": [
+        "CVE-2026-20182",
+        "CVE-2026-41940",
+        "CVE-2026-35616",
+        "CVE-2025-48595",
+        "CVE-2022-0492",
+        "CVE-2026-9082",
+        "CVE-2026-3055"
+      ],
+      "malware_findings": [
+        "EKZ Infostealer via FortiClient EMS exploitation",
+        "SANS ISC SVG phishing with application/ecmascript MIME evasion",
+        "MalwareBazaar: 231 submissions in past 24h; Mirai most seen"
+      ],
+      "confidence": "High"
+    }
+  ]
+}

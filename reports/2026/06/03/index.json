@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-03",
+  "repository": "dfalt0/Test-cursor-security-automation",
+  "reports": [
+    {
+      "hour": "04",
+      "generated_at": "2026-06-03T04:35:00Z",
+      "report_window": {
+        "start": "2026-06-03T03:00:00Z",
+        "end": "2026-06-03T04:35:00Z"
+      },
+      "path": "reports/2026/06/03/04/security-intel-report.md",
+      "summary": {
+        "current_window_cves": 0,
+        "day_to_date_cves": 12,
+        "rolling_24h_cves": 213,
+        "critical_24h": 13,
+        "high_24h": 76,
+        "kev_catalog_version": "2026.06.02",
+        "priority_items": [
+          "CVE-2026-20182",
+          "CVE-2026-41940",
+          "CVE-2026-23744",
+          "CVE-2026-7312",
+          "CVE-2026-7198",
+          "CVE-2026-49448",
+          "CVE-2026-32625",
+          "CVE-2026-0611",
+          "CVE-2026-47117",
+          "CVE-2022-0492",
+          "CVE-2025-48595",
+          "CVE-2026-9082"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-03",
+  "reports": [
+    {
+      "hour": "03",
+      "generated_at": "2026-06-03T03:35:00Z",
+      "path": "reports/2026/06/03/03/security-intel-report.md",
+      "summary": {
+        "current_window_cves": 3,
+        "day_to_date_cves": 12,
+        "rolling_24h_cves": 217,
+        "critical_rolling_24h": 12,
+        "high_rolling_24h": 66,
+        "active_exploitation_findings": [
+          "CVE-2026-20182",
+          "CVE-2026-23744",
+          "CVE-2026-41940",
+          "CVE-2026-35616",
+          "CVE-2026-24061",
+          "CVE-2026-9082",
+          "CVE-2026-41091",
+          "CVE-2026-45498"
+        ],
+        "new_current_window_cves": [
+          "CVE-2026-10703",
+          "CVE-2026-10704",
+          "CVE-2026-10705"
+        ],
+        "new_kev_additions": [
+          "CVE-2022-0492",
+          "CVE-2025-48595"
+        ],
+        "malware_findings": [
+          "EKZ Infostealer via FortiClient EMS exploitation",
+          "Mirai and Sorry ransomware activity tied to cPanel/WHM CVE-2026-41940",
+          "SmartApeSG/ClickFix delivery of unidentified RAT followed by NetSupport RAT",
+          "MalwareBazaar: Mirai most-seen family in past 24 hours"
+        ]
+      }
+    }
+  ]
+}

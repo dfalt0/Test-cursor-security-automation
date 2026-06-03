@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-03",
+  "reports": [
+    {
+      "hour": "02",
+      "generated_at": "2026-06-03T02:03:00Z",
+      "path": "reports/2026/06/03/02/security-intel-report.md",
+      "collection_window": {
+        "current_start": "2026-06-03T01:00:00Z",
+        "current_end": "2026-06-03T02:35:00Z",
+        "rolling_24h_start": "2026-06-02T02:35:00Z",
+        "rolling_24h_end": "2026-06-03T02:35:00Z"
+      },
+      "nvd_current_hour": {
+        "total": 4,
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 1,
+        "unknown": 2
+      },
+      "nvd_day_to_date": {
+        "total": 9,
+        "critical": 0,
+        "high": 0,
+        "medium": 3,
+        "low": 4,
+        "unknown": 2
+      },
+      "nvd_rolling_24h": {
+        "total": 223,
+        "critical": 14,
+        "high": 76,
+        "medium": 89,
+        "low": 24,
+        "unknown": 20
+      },
+      "key_priorities": [
+        "Cisco SD-WAN CVE-2026-20182",
+        "cPanel CVE-2026-41940",
+        "FortiClient EMS CVE-2026-35616",
+        "Citrix NetScaler CVE-2026-3055",
+        "LiteSpeed cPanel CVE-2026-48172",
+        "Drupal CVE-2026-9082",
+        "Kirki CVE-2026-8206",
+        "Android CVE-2025-48595",
+        "Linux cgroups CVE-2022-0492"
+      ],
+      "review_status": "Pending analyst review"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-03",
+  "reports": [
+    {
+      "hour": "06",
+      "generated_at": "2026-06-03T06:35:00Z",
+      "path": "reports/2026/06/03/06/security-intel-report.md",
+      "summary": {
+        "nvd_hourly_cves": 0,
+        "nvd_day_to_date_cves": 13,
+        "nvd_rolling_24h_cves": 214,
+        "critical_rolling_24h": 13,
+        "high_rolling_24h": 77,
+        "active_exploitation_findings": [
+          "CVE-2026-20131",
+          "CVE-2026-20182",
+          "CVE-2026-3055",
+          "CVE-2026-23744",
+          "CVE-2026-9082",
+          "CVE-2026-41940",
+          "CVE-2026-31431",
+          "CVE-2022-0492",
+          "CVE-2025-48595"
+        ],
+        "new_exploit_indicators": [
+          "9Bakabaka/CVE-2026-49943-PoC",
+          "jf-gondim/mcp-pwn",
+          "hieuminhnv/CVE-2026-29198-POC"
+        ],
+        "malware_findings": [
+          "MalwareBazaar reports 198 submissions in the past 24h, Mirai most seen",
+          "Sophos-reported AI-assisted ransomware malware lab for EDR evasion",
+          "Miasma / Mini Shai-Hulud Red Hat npm supply-chain compromise remains active remediation priority"
+        ]
+      },
+      "confidence": "High"
+    }
+  ]
+}

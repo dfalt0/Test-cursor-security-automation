@@ -1,6 +1,6 @@
 # Security Intelligence Report - 2026-06-03 06:00 UTC
 
-Report window: 2026-06-03 05:00-06:35 UTC.  
+Report window: 2026-06-03 05:00-06:35 UTC.
 Analyst stance: Prioritize confirmed active exploitation, KEV entries, public exploit material, enterprise/cloud exposure, and patch availability. Public GitHub PoC repositories are treated as indicators until independently validated.
 
 ## Executive Summary

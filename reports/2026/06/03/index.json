@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-03",
+  "reports": [
+    {
+      "hour": "05",
+      "generated_at": "2026-06-03T05:03:00Z",
+      "path": "reports/2026/06/03/05/security-intel-report.md",
+      "summary": {
+        "nvd_hourly_total": 1,
+        "nvd_day_to_date_total": 13,
+        "nvd_rolling_24h_total": 214,
+        "critical_findings": [
+          "CVE-2026-20131",
+          "CVE-2026-20182",
+          "CVE-2026-3055",
+          "CVE-2026-23744",
+          "CVE-2026-41940",
+          "CVE-2026-9082",
+          "CVE-2026-29198",
+          "CVE-2026-7312",
+          "CVE-2026-0611",
+          "CVE-2026-47117",
+          "CVE-2026-49448",
+          "CVE-2026-32625"
+        ],
+        "active_exploitation": [
+          "CVE-2026-20131",
+          "CVE-2026-20182",
+          "CVE-2026-3055",
+          "CVE-2026-23744",
+          "CVE-2026-41940",
+          "CVE-2026-9082",
+          "CVE-2022-0492",
+          "CVE-2025-48595"
+        ],
+        "malware_campaigns": [
+          "Miasma / Red Hat @redhat-cloud-services npm compromise",
+          "Mirai most-seen family on MalwareBazaar past 24h"
+        ]
+      }
+    }
+  ]
+}

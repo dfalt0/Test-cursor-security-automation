@@ -1,0 +1,21 @@
+automations:
+  - name: Hourly Security News Check
+    id: hourly-security-check
+    schedule:
+      cron: "0 * * * *"
+      timezone: UTC
+      description: Runs at the start of every hour
+    prompt: prompts/hourly-security-check.md
+    output_path: "reports/{YYYY}/{MM}/{DD}/{HH}/security-intel-report.md"
+    github_repo: dfalt0/Test-cursor-security-automation
+
+  - name: Daily Security Intelligence Review
+    id: daily-security-review
+    schedule:
+      cron: "55 23 * * *"
+      timezone: UTC
+      description: Runs daily at 23:55 UTC, after the last hourly report of the day
+    prompt: prompts/daily-security-review.md
+    output_path: "reports/{YYYY}/{MM}/{DD}/daily/security-intelligence-daily-brief.md"
+    github_repo: dfalt0/Test-cursor-security-automation
+    depends_on: hourly-security-check

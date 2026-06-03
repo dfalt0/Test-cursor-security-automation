@@ -1,0 +1,47 @@
+name: Daily Security Intelligence Review
+
+on:
+  schedule:
+    # Daily at 23:55 UTC, after the last hourly report of the day
+    - cron: "55 23 * * *"
+  workflow_dispatch:
+
+jobs:
+  daily-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify daily prompt exists
+        run: test -f prompts/daily-security-review.md
+
+      - name: Check hourly report coverage for today
+        run: |
+          TODAY=$(date -u +%Y/%m/%d)
+          echo "Review date (UTC): $(date -u +%Y-%m-%d)"
+          echo "Expected hourly reports under: reports/${TODAY}/{HH}/"
+          echo ""
+          FOUND=0
+          MISSING=""
+          for H in $(seq -w 0 23); do
+            HH=$(printf "%02d" "$H")
+            if [ -f "reports/${TODAY}/${HH}/security-intel-report.md" ]; then
+              FOUND=$((FOUND + 1))
+            else
+              MISSING="${MISSING} ${HH}"
+            fi
+          done
+          echo "Hourly reports found: ${FOUND}/24"
+          if [ -n "${MISSING}" ]; then
+            echo "Missing hours:${MISSING}"
+          fi
+
+      - name: Log scheduled run
+        run: |
+          echo "Daily Security Intelligence Review triggered at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "Agent prompt: prompts/daily-security-review.md"
+          echo "Expected output: reports/$(date -u +%Y/%m/%d)/daily/security-intelligence-daily-brief.md"
+          echo ""
+          echo "Configure a Cursor automation with this schedule to execute the agent."
+          echo "See automation/schedules.yaml and README.md for setup instructions."
